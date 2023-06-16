@@ -4,9 +4,10 @@
 // check this file using TypeScript if available
 // @ts-check
 
-describe('TodoMVC - React', function () {
+describe('Twitter Clone', function () {
   // setup these constants to match what TodoMVC does
-  it('passes', () => {
+  it('Loads main page', () => {
     cy.visit('http://localhost:3000');
+    cy.get('not found');
   });
 });
